@@ -13,6 +13,7 @@
 		4E4063F321DFDF2D00BD8F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4063F221DFDF2D00BD8F62 /* Assets.xcassets */; };
 		4E4063F621DFDF2D00BD8F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4063F421DFDF2D00BD8F62 /* LaunchScreen.storyboard */; };
 		4E4063FE21E1B51B00BD8F62 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4063FD21E1B51B00BD8F62 /* Extensions.swift */; };
+		4EEB91AC21E7C2280079209B /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEB91AB21E7C2280079209B /* AnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E4063F521DFDF2D00BD8F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E4063F721DFDF2D00BD8F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4063FD21E1B51B00BD8F62 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4EEB91AB21E7C2280079209B /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4E4063F421DFDF2D00BD8F62 /* LaunchScreen.storyboard */,
 				4E4063FD21E1B51B00BD8F62 /* Extensions.swift */,
 				4E4063F721DFDF2D00BD8F62 /* Info.plist */,
+				4EEB91AB21E7C2280079209B /* AnimationController.swift */,
 			);
 			path = CircularProgressBar;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEB91AC21E7C2280079209B /* AnimationController.swift in Sources */,
 				4E4063EE21DFDF2A00BD8F62 /* ViewController.swift in Sources */,
 				4E4063FE21E1B51B00BD8F62 /* Extensions.swift in Sources */,
 				4E4063EC21DFDF2A00BD8F62 /* AppDelegate.swift in Sources */,

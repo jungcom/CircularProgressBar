@@ -133,6 +133,9 @@ class ViewController: UIViewController, URLSessionDownloadDelegate {
     }
     
     func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL) {
+        print("End of download!")
+        let vc = AnimationController()
+        present(vc, animated: true, completion: nil)
         
     }
 
