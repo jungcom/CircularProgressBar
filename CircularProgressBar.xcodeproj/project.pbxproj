@@ -60,12 +60,12 @@
 			children = (
 				4E4063EB21DFDF2A00BD8F62 /* AppDelegate.swift */,
 				4E4063ED21DFDF2A00BD8F62 /* ViewController.swift */,
+				4EEB91AB21E7C2280079209B /* AnimationController.swift */,
 				4E4063EF21DFDF2A00BD8F62 /* Main.storyboard */,
 				4E4063F221DFDF2D00BD8F62 /* Assets.xcassets */,
 				4E4063F421DFDF2D00BD8F62 /* LaunchScreen.storyboard */,
 				4E4063FD21E1B51B00BD8F62 /* Extensions.swift */,
 				4E4063F721DFDF2D00BD8F62 /* Info.plist */,
-				4EEB91AB21E7C2280079209B /* AnimationController.swift */,
 			);
 			path = CircularProgressBar;
 			sourceTree = "<group>";

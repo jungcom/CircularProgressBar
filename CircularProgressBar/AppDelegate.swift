@@ -19,10 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Set the animationController as initial View
         
-//        self.window = UIWindow(frame: UIScreen.main.bounds)
-//        let exampleViewController = AnimationController()
-//        self.window?.rootViewController = exampleViewController
-//        self.window?.makeKeyAndVisible()
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let exampleViewController = AnimationController()
+        self.window?.rootViewController = exampleViewController
+        self.window?.makeKeyAndVisible()
         
         return true
     }
